@@ -1,0 +1,40 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  --main-color:#FFD4D0;
+  --about-color:#1F1F1F;
+  --section-color:#F7F7F7;
+  --pargraph-color:#fff;
+}
+
+.app{
+  background-color: var(--pargraph-color);
+}
+
+.dark{
+  background-color: var(--about-color) !important;
+  /* color: #1F1F1F !important; */
+  --about-color:#fff;
+  --pargraph-color:#1F1F1F ;
+}
+
+.light{
+  background-color: var(--pargraph-color) !important;
+  
+
+}
+
+.app button{
+  position: absolute;
+  top: 5%;
+  /* left: 95%; */
+  background-color: transparent;
+  border: none;
+  font-weight: 900;
+  color: #fff;
+  cursor: pointer;
+}

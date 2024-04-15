@@ -1,0 +1,10 @@
+.for-light-theme{
+    --main-color:#FFD4D0;
+  --about-color:#1F1F1F;
+  --section-color:#F7F7F7;
+  --pargraph-color:#fff;
+}
+
+.for-dark-theme{
+    --main-color:#1F1F1F;
+}

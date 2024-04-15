@@ -1,0 +1,15 @@
+.achievment-container{
+    margin-top: 20%;
+    text-align: center;
+}
+
+.achievment{
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+}
+
+.achievment img{
+    width: 30vw;
+    object-fit: contain;
+}

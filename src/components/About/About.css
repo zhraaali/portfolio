@@ -1,0 +1,35 @@
+.about{
+    background-color: var(--about-color);
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.about h1 , .about p{
+    text-align: center;
+    color: var(--pargraph-color);
+}
+
+.contact{
+    /* color: #fff; */
+    color: var(--pargraph-color);
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    width: 100%;
+}
+
+.contact .contact-contain{
+    width: 100%;
+    margin: auto 0;
+}
+.contact img{
+    width: 20vw;
+}
+
+.contact .contact-contain p{
+    margin: 2%;
+}
